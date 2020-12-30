@@ -5,4 +5,5 @@ A simple snake game, built off of [this tutorial](https://www.youtube.com/watch?
 ## Play 
 Check it out [here!](https://snake-sta.surge.sh/)
 
+## Screenshots
 ![screenshot](screenshot.png)
