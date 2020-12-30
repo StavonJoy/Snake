@@ -18,3 +18,10 @@ img[alt=screenshot] {
   height: 300px;
   width: 100px;
 }
+a {
+  font-size: 1.5em;
+  margin: 10px;
+  color: #4cafab;
+  text-decoration: none;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
