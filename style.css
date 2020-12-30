@@ -1,0 +1,13 @@
+body {
+  font-family: 'Bungee Outline', cursive;
+  text-align: center;
+}
+h1 {
+  font-size: 2.5em;
+}
+#yourScore {
+  font-size: 2em;
+}
+#highScore {
+  font-size: 1.75em;
+}

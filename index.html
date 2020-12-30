@@ -3,14 +3,19 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Bungee+Outline&display=swap');
+    </style>
+  <link rel="stylesheet" href="style.css">
   <title>Snake Game</title>
 </head>
 <body>
-  <canvas class="canvas" height="300" width="300" style="background-color: #3e3e3e">
+  <h1>Snake!</h1>
+  <canvas class="canvas" height="300" width="300" style="background-color: #3e3e3e; border: 5px solid #4cafab">
 
   </canvas>
-  <h1>Your score: <span class="score"></span></h1>
-  <h2>High score: <span class="highScore"></span></h2>
+  <h2 id="yourScore">Your score: <span class="score"></span></h1>
+  <h3 id="highScore">High score: <span class="highScore"></span></h2>
 </body>
 <script type="text/javascript" src="fruit.js"></script>
 <script type="text/javascript" src="snake.js"></script>
