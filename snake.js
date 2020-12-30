@@ -80,7 +80,6 @@ function Snake() {
   this.checkCollision = function() {
     for (let i=0; i<this.tail.length; i++){
       if (this.x === this.tail[i].x && this.y === this.tail[i].y) {
-        this.checkHighScore();
         this.total = 0;
         this.tail = [];
       }

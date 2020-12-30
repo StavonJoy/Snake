@@ -25,6 +25,7 @@ let snake;
 
     snake.checkCollision();
     document.querySelector('.score').innerText = snake.total;
+    snake.checkHighScore();
 
   }, 250);
 }());
