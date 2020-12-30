@@ -13,3 +13,8 @@ h1 {
 #highScore {
   font-size: 2.75em;
 }
+
+img[alt=screenshot] {
+  height: 300px;
+  width: 100px;
+}
