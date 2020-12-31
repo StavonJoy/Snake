@@ -4,8 +4,7 @@ body {
   background-color:black;
   color: white;
   margin: 0 auto;
-  height: 100vh;
-
+  height: 100%;
 }
 h1 {
   font-size: 4em;
@@ -29,12 +28,13 @@ footer {
   bottom: 0;
   right: 0;
   width: 100%;
+  background-color: #4cafab;
+  padding: 5px;
 }
 a {
-  display: block;
   font-size: 1em;
   margin: 10px;
-  color: #4cafab;
+  color: white;
   text-decoration: none;
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
@@ -80,3 +80,55 @@ a {
   grid-row-end: -1;
   font-size: 1.5em;
 }
+
+#icon {
+  margin-right: 10px;
+}
+
+@media only screen and (max-height: 760px){
+  h1 {
+    font-size: 2.5em;
+    margin: 2px;
+  }
+  #yourScore {
+    margin: 2px;
+    font-size: 2.2em;
+  }
+  #highScore {
+    margin: 0px;
+    font-size: 2em;
+  }
+  a {
+    font-size: .8em;
+  }
+  .buttons, .button-area {
+    margin: 0px;
+  }
+} 
+@media only screen and (max-height: 630px){
+  h1 {
+    font-size: 2em;
+    margin: 2px;
+  }
+  #yourScore {
+    margin: 2px;
+    font-size: 1.5em;
+  }
+  #highScore {
+    margin: 0px;
+    font-size: 1.5em;
+  }
+  a {
+    font-size: .7em;
+  }
+  icon {
+    height: 10px;
+    width: 10px;
+  }
+  .button-area {
+    height: 20%;
+  }
+  .buttons, .button-area {
+    margin: 0px;
+  }
+} 
