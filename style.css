@@ -85,7 +85,28 @@ a {
   margin-right: 10px;
 }
 
-@media only screen and (max-height: 760px){
+@media only screen and (max-height: 900px){
+  h1 {
+    font-size: 3.5em;
+    margin: 15px;
+  }
+  #yourScore {
+    margin: 15px;
+    font-size: 3em;
+  }
+  #highScore {
+    margin-top: 35px;
+    font-size: 3em;
+  }
+  a {
+    font-size: 1.5em;
+  }
+  .button-area, .buttons {
+    margin-top: 15px;
+    font-size: 1.15em;
+  }
+} 
+@media only screen and (max-height: 740px){
   h1 {
     font-size: 2.5em;
     margin: 2px;
@@ -95,14 +116,14 @@ a {
     font-size: 2.2em;
   }
   #highScore {
-    margin: 0px;
-    font-size: 2em;
+    margin-top: 30px;
+    font-size: 2.3em;
   }
   a {
-    font-size: .8em;
+    font-size: .9em;
   }
   .buttons, .button-area {
-    margin: 0px;
+    margin-top: 10px;
   }
 } 
 @media only screen and (max-height: 630px){
@@ -115,7 +136,7 @@ a {
     font-size: 1.5em;
   }
   #highScore {
-    margin: 0px;
+    margin: 10px;
     font-size: 1.5em;
   }
   a {
@@ -130,5 +151,6 @@ a {
   }
   .buttons, .button-area {
     margin: 0px;
+    font-size: .9em;
   }
 } 
