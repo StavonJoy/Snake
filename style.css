@@ -3,12 +3,14 @@ body {
   text-align: center;
   background-color:black;
   color: white;
+  margin: 0 auto;
 }
 h1 {
   font-size: 4em;
 }
 #yourScore {
-  font-size: 3em;
+  font-size: 2.7em;
+  margin: 0 auto;
 }
 #highScore {
   font-size: 2.75em;
@@ -24,4 +26,44 @@ a {
   color: #4cafab;
   text-decoration: none;
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.buttons {
+  width: 150px;
+  height: 150px;
+  display: grid;
+  grid-template-columns: 50px 50px 50px;
+  grid-template-rows: 50px 50px 50px;
+  background-color: blue;
+}
+#buttonUp {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  font-size: 1.5em;
+}
+
+#buttonLeft {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  font-size: 1.5em;
+}
+
+#buttonRight {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  font-size: 1.5em;
+}
+
+#buttonDown {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: -2;
+  grid-row-end: -1;
+  font-size: 1.5em;
 }

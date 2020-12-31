@@ -30,6 +30,11 @@ let snake;
   }, 250);
 }());
 
+window.addEventListener('click', ((evt) => {
+  const direction = evt.target.id.replace('button', '');
+  snake.changeDirection(direction);
+}))
+
 window.addEventListener('keydown', ((evt) => {
   const direction = evt.key.replace('Arrow', '');
   snake.changeDirection(direction);
