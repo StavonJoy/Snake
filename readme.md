@@ -1,6 +1,6 @@
 # Snake
 
-A simple snake game, built off of [this tutorial](https://www.youtube.com/watch?v=21eSpMtJwrc). This uses vanillia javascript and HTML Canvas. I added a high score function, and plan to add more styling soon.
+A simple snake game, built off of [this tutorial](https://www.youtube.com/watch?v=21eSpMtJwrc). This uses Javascript, HTML Canvas, Google Fonts, and Bootstrap Icons. I added a high score function, a directional button display for mobile devices, and some styling. I'll be making it even more mobile responsive and adding more styling soon!
 
 ## Play 
 Check it out [here!](https://snake-sta.surge.sh/)
