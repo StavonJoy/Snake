@@ -6,4 +6,4 @@ A simple snake game, built off of [this tutorial](https://www.youtube.com/watch?
 Check it out [here!](https://snake-sta.surge.sh/)
 
 ## Screenshots
-![screenshot](screenshot.png)
+<img src="screenshot.png" alt="screenshot" width="400" height="600">

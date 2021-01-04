@@ -32,7 +32,7 @@ footer {
   padding: 5px;
 }
 a {
-  font-size: 1em;
+  font-size: 1.5em;
   margin: 10px;
   color: white;
   text-decoration: none;
@@ -85,7 +85,7 @@ a {
   margin-right: 10px;
 }
 
-@media only screen and (max-height: 900px){
+@media only screen and (max-height: 800px){
   h1 {
     font-size: 3.5em;
     margin: 15px;
@@ -102,11 +102,10 @@ a {
     font-size: 1.5em;
   }
   .button-area, .buttons {
-    margin-top: 15px;
     font-size: 1.15em;
   }
 } 
-@media only screen and (max-height: 740px){
+@media only screen and (max-height: 770px){
   h1 {
     font-size: 2.5em;
     margin: 2px;
@@ -123,7 +122,7 @@ a {
     font-size: .9em;
   }
   .buttons, .button-area {
-    margin-top: 10px;
+    margin-top: 5px;
   }
 } 
 @media only screen and (max-height: 630px){
