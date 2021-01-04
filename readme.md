@@ -7,3 +7,6 @@ Check it out [here!](https://snake-sta.surge.sh/)
 
 ## Screenshots
 <img src="screenshot.png" alt="screenshot" width="400" height="600">
+
+## Updates
+Updated on 1/4/20 to add a game over alert and wall collisions. No more sneaking around the back to safety! 
