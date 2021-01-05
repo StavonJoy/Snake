@@ -125,12 +125,13 @@ a {
     margin-top: 5px;
   }
 } 
-@media only screen and (max-height: 630px){
+@media only screen and (max-height: 600px){
   h1 {
-    font-size: 2em;
-    margin: 2px;
+    visibility: hidden;
   }
   #yourScore {
+    position: absolute;
+    top: 0;
     margin: 2px;
     font-size: 1.5em;
   }
@@ -141,15 +142,21 @@ a {
   a {
     font-size: .7em;
   }
+  .canvas {
+    height: 100%vh;
+  }
   icon {
-    height: 10px;
-    width: 10px;
+    height: 3px;
+    width: 3px;
   }
   .button-area {
-    height: 20%;
+    height: 10%;
   }
   .buttons, .button-area {
     margin: 0px;
     font-size: .9em;
+  }
+  footer {
+    visibility: hidden;
   }
 } 

@@ -86,8 +86,8 @@ function Snake() {
     for (let i=0; i<this.tail.length; i++){
       if (this.x === this.tail[i].x && this.y === this.tail[i].y) {
         this.total = 0;
-        this.tail = [];
         alert("Game Over! Your score was " + this.tail.length + ". Try again!");
+        this.tail = [];
       } 
     }
   }
